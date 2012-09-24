@@ -10,7 +10,7 @@ gem 'pg'
 end
 
 group :development, :test do
-  gem 'sqlite3', :require => 'sqlite'
+  gem 'sqlite3', :require => 'sqlite3'	
 end
 group :development do
   gem 'rspec-rails', '2.0.1'
